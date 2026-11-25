@@ -1,0 +1,12 @@
+keys/extension-key.pem
+tests/fixtures/out/
+helper/config.json
+helper/host.sh
+node_modules/
+.DS_Store
+*.log
+extension/dev-token.txt
+docs/feasibility-sandbox/node_modules/
+docs/feasibility-sandbox/venv/
+docs/feasibility-sandbox/out/
+docs/feasibility-sandbox/fixtures/

@@ -1,0 +1,14 @@
+{
+  "name": "media-saver",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/Hwemo-Chung/media-saver.git" },
+  "type": "module",
+  "description": "Media Saver: Chrome MV3 media detector/downloader with a local ffmpeg helper",
+  "scripts": {
+    "test": "node --test \"tests/unit/*.test.js\"",
+    "fixtures": "bash tests/fixtures/make.sh",
+    "serve": "node tests/server/server.js"
+  }
+}

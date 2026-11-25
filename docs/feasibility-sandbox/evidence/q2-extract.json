@@ -1,0 +1,102 @@
+[
+  {
+    "step": "every2s clip720 (fps=1/2)",
+    "code": 0,
+    "ms": 149,
+    "frames": 6
+  },
+  {
+    "step": "scene>0.3 scenes.mp4",
+    "code": 0,
+    "ms": 206,
+    "frames": 5,
+    "ptsTimes": [
+      0,
+      2,
+      4,
+      6,
+      8
+    ]
+  },
+  {
+    "step": "scene>0.3 clip720.mp4",
+    "code": 0,
+    "ms": 172,
+    "frames": 1,
+    "ptsTimes": [
+      0
+    ]
+  },
+  {
+    "step": "long600 every 10 s via fps=1/10 (full decode)",
+    "code": 0,
+    "ms": 3157,
+    "frames": 60
+  },
+  {
+    "step": "long600 every 10 s via 60x (-ss t -frames:v 1) sequential",
+    "ms": 2011,
+    "frames": 60,
+    "failed": 0
+  },
+  {
+    "step": "long600 scene>0.3 analyseSide=full 720p",
+    "code": 0,
+    "ms": 6349,
+    "frames": 1
+  },
+  {
+    "step": "long600 scene>0.3 analyseSide=320",
+    "code": 0,
+    "ms": 5884,
+    "frames": 1
+  },
+  {
+    "step": "normalise 01-landscape.jpg",
+    "code": 0,
+    "ms": 59,
+    "err": ""
+  },
+  {
+    "step": "normalise 02-portrait.jpg",
+    "code": 0,
+    "ms": 53,
+    "err": ""
+  },
+  {
+    "step": "normalise 03-alpha.png",
+    "code": 0,
+    "ms": 71,
+    "err": ""
+  },
+  {
+    "step": "normalise 04-still.webp",
+    "code": 0,
+    "ms": 92,
+    "err": ""
+  },
+  {
+    "step": "normalise 05-static.gif",
+    "code": 0,
+    "ms": 58,
+    "err": ""
+  },
+  {
+    "step": "normalise 06-anim.gif",
+    "code": 0,
+    "ms": 68,
+    "err": ""
+  },
+  {
+    "step": "normalise 07-anim.webp",
+    "code": 0,
+    "ms": 59,
+    "err": ""
+  },
+  {
+    "step": "normalise 08-한글 이름 테스트.jpg",
+    "code": 0,
+    "ms": 60,
+    "err": ""
+  }
+]

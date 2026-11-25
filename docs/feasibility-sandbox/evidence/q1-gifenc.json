@@ -1,0 +1,9 @@
+{
+  "name": "A-gifenc-js-15fps-480",
+  "frames": 180,
+  "encodeMs": 4898,
+  "sizeKB": 2429,
+  "peakRssMB": 177,
+  "rawFramesMB": 89,
+  "ssim": 0.811729
+}

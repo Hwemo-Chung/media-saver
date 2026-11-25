@@ -1,0 +1,47 @@
+{
+  "manifest_version": 3,
+  "name": "Media Saver",
+  "version": "1.0.0",
+  "description": "웹 페이지의 영상·음성·이미지를 감지해 저장합니다. HLS·DASH 무제한, 자막, 라이브 녹화, 이미지 일괄 저장. 로컬 전용.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7yKIMD0D45DYImPyKgn7JTHdfBQnY97VPzwkh7rvr9oWJYuwvOnqFdMe09Tps7vcbmPtZ6Zqwlf0zfU6/ejEWTn0rZGINxLA+d14OaAxkJ60N4KnwOviUnAKo6f3Yzl0oTCnpRpXw8TH9mOo6IP5aewze8E0Yx1OJjJ6IoN/uy82sBJUK+9O4BsvTgDAEjdfRypvIoyUJx90LCsmB0kFm4zMMFcNRPH1RTklG+tNEWVurNhRotG33LT4w9ibCTG6j5BN+iA61xCROawB0pfTpMzYhc52IBNl3bqATYFwMXeqNB1Lvr96/4FygpDzg0J2VDo41zofvxv+iVOps7ttbwIDAQAB",
+  "minimum_chrome_version": "120",
+  "permissions": [
+    "webRequest",
+    "declarativeNetRequestWithHostAccess",
+    "downloads",
+    "offscreen",
+    "storage",
+    "unlimitedStorage",
+    "nativeMessaging",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Media Saver",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-gray-16.png",
+      "32": "icons/icon-gray-32.png",
+      "48": "icons/icon-gray-48.png"
+    }
+  },
+  "options_page": "options.html",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "externally_connectable": {
+    "matches": [
+      "http://127.0.0.1/*"
+    ],
+    "ids": []
+  }
+}
